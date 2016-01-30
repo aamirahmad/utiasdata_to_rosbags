@@ -12,7 +12,7 @@ INSTRUCTIONS OF USE:
 2. Download the UTIAS multrobot dataset (There are 9 datasets)
 3. Let us say the the path to any one of the dataset's root folder where you have files such as Robot1_Odometry.dat and so on is called /path-to-mrclamdataset/MRCLAM_Dataset1/
 4. Issue the follwoing command
--- rosrun utiasdata_to_rosbags utiasdata_to_bag /store/UTIAS_MRCLAM/MRCLAM_Dataset1/ UTIAS_Dataset_1.bag
+   rosrun utiasdata_to_rosbags utiasdata_to_bag /path-to-mrclamdataset/MRCLAM_Dataset1/ UTIAS_Dataset_1.bag
 5. Your bag will be created and saved as UTIAS_Dataset_1.bag in the location where you issued the command.
 
 If you have any doubts, please send me an email at aamir.itkgp[at]gmail.com
